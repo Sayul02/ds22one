@@ -34,16 +34,7 @@
  * @calling example
  * isSymmetrical(g)
   */
-  function isSymmetrical(g){
-    for(let i=0;i<g.length;i++)
-      for(let a=0;a<g.lengtj;i++){
-        if(g[i][a+1]!=g[a+1][i])
-          return 'False the graph isnt symmetrical'
-        else 
-          return 'True the graph is symemetrical'
-      }
-  }
-  console.log(isSymmetrical(g));
+
   /*
   * PROBLEM 3
  * isTree(t)
