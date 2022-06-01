@@ -9,6 +9,7 @@
  * @calling example
  * isSquare(g)
   */
+  
   let g=[
     [0,1,0,0],
     [1,0,0,0],
@@ -34,7 +35,18 @@
  * @calling example
  * isSymmetrical(g)
   */
-
+  
+  function isSymmetrical(g){
+    for(let i=0;i<g.length;i++)
+      for(let a=0;a<g.length;i++){
+        if(g[i][a+1]!=g[a+1][i])
+          return 'False the graph isnt symmetrical'
+        else
+          return 'True the graph is symmetrical'
+      }
+  }
+  console.log(isSymmetrical(g));
+  
   /*
   * PROBLEM 3
  * isTree(t)
@@ -46,6 +58,8 @@
  * @calling example
  * isTree(t)
   */
+  
+  
   
   /*
    * PROBLEM 4
